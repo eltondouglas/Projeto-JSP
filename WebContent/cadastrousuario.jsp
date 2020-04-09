@@ -12,7 +12,7 @@
 	<link rel="icon" type="icon/png" href="resources/images/icons/favicon.png">
 
 <body>
-	<form action="CadastroServlet" method="post" class="form-style-1" id="formAdd">
+	<form action="CadastroServlet" method="post" class="form-style-1" id="formAdd" onsubmit="return validateForm(this);">
 		<h2>Cadastro</h2>
 		<br>
 		<h3 style="color: red;">${msg}</h3>
@@ -54,7 +54,7 @@
 		<br>
 		<br>
 		<span>
-			<input type="submit" value="Salvar" onsubmit="validate()">
+			<input type="submit" value="Salvar">
 		</span>
 		<span>
 			<input type="submit" onclick="document.getElementById('formAdd').action = 'CadastroServlet?acao=reset'" value="Cancelar">

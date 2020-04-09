@@ -5,6 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Acesso liberado</title>
+<link rel="icon" type="icon/png" href="resources/images/icons/favicon.png">
 </head>
 <body>
 	
